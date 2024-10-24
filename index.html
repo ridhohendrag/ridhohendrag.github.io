@@ -1,1 +1,139 @@
-tes
+<!doctype html>
+<html ⚡>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Ridho Hendra's Blog - News, Tips, and Advice</title>
+    <link rel="canonical" href="https://ridhohendrag.github.io/">
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-social-share" src="https://cdn.ampproject.org/v0/amp-social-share-0.1.js"></script>
+    <style amp-custom>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #1f2937;
+            --bg-color: #f3f4f6;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+        }
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        .profile-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        .card {
+            background: white;
+            border-radius: 1rem;
+            padding: 2rem;
+            margin: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .topics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        .topic-card {
+            background: var(--bg-color);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .topic-card:hover {
+            transform: translateY(-5px);
+        }
+        .social-share {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        h2 {
+            color: var(--primary-color);
+            margin: 1.5rem 0 1rem;
+        }
+        .tag {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            font-size: 0.875rem;
+            margin: 0.25rem;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            .card {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Ridho Hendra's Blog</h1>
+        <p>Your Source for News, Tips, and Practical Advice</p>
+    </header>
+
+    <main class="profile-container">
+        <div class="card">
+            <h2>About The Blog</h2>
+            <p>Welcome to my platform where I share valuable insights, latest news, and practical tips to help you stay informed and improve your daily life. With a focus on clarity and actionable content, I cover a wide range of topics that matter to you.</p>
+            
+            <div class="tags">
+                <span class="tag">News</span>
+                <span class="tag">Tips</span>
+                <span class="tag">Info</span>
+                <span class="tag">Advice</span>
+            </div>
+        </div>
+
+        <div class="topics">
+            <div class="topic-card">
+                <h3>Latest News</h3>
+                <p>Stay updated with current events and trending topics</p>
+            </div>
+            <div class="topic-card">
+                <h3>Practical Tips</h3>
+                <p>Discover useful solutions for everyday challenges</p>
+            </div>
+            <div class="topic-card">
+                <h3>Valuable Info</h3>
+                <p>Access comprehensive information on various subjects</p>
+            </div>
+            <div class="topic-card">
+                <h3>Expert Advice</h3>
+                <p>Get insights to make better informed decisions</p>
+            </div>
+        </div>
+
+        <div class="social-share">
+            <amp-social-share type="twitter" width="40" height="40"></amp-social-share>
+            <amp-social-share type="facebook" width="40" height="40"></amp-social-share>
+            <amp-social-share type="linkedin" width="40" height="40"></amp-social-share>
+        </div>
+    </main>
+</body>
+</html>
